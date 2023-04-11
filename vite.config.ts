@@ -9,12 +9,12 @@ export default defineConfig({
     StimulusHMR(),
     FullReload(["config/routes.rb", "app/views/**/*"], { delay: 300 }),
   ],
-  resolve: {
+  /* resolve: {
     alias: {
       "@": resolve(__dirname, "app/javascript"),
     },
   },
   optimizeDeps: {
     include: ["@fortawesome/fontawesome-free"],
-  },
+  }, */
 });
